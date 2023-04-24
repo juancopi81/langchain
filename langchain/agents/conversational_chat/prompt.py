@@ -30,7 +30,7 @@ SUFFIX = """TOOLS
 Assistant can ask students to use tools to look up information that may be helpful in answering the students' original question. The tools the students can use are:
 {{tools}}
 {format_instructions}
-USER'S INPUT
+STUDENTS' INPUT
 --------------------
 Here is the user's input (remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else):
 {{{{input}}}}"""
@@ -38,6 +38,6 @@ Here is the user's input (remember to respond with a markdown code snippet of a 
 TEMPLATE_TOOL_RESPONSE = """TOOL RESPONSE: 
 ---------------------
 {observation}
-USER'S INPUT
+STUDENTS' INPUT
 --------------------
-Okay, so how can I find the answer to my question? If using information obtained from the tools, you should provide tips on how to find the answer by myself - I have forgotten all TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else."""
+Okay, How can I find the answer by myself? What sources are relevants? - I have forgotten all TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action, and NOTHING else."""
