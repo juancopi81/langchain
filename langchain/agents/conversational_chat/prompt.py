@@ -62,5 +62,4 @@ TEMPLATE_TOOL_RESPONSE = """TOOL RESPONSE:
 STUDENTS' INPUT
 --------------------
 
-Okay, how could I find the solution to my original question independently? Please provide me with 50 words of feedback.
-If the question is related to the Deep Learning Specialization, you must ALWAYS show the URL sources from the Deep Learning Specialization. - I have forgotten all TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action and NOTHING else."""
+Okay, how could I find the solution to my original question independently? Please provide me with 50 words of feedback - I have forgotten all TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action and NOTHING else."""
