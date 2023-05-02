@@ -13,8 +13,7 @@ Option 1: The question is NOT related to these topics:
 Option 2: The question is related to these topics:
 2. Find the solution to the question.
 3. Interrogate the student to discover their current understanding of the topic.
-4. Compare the student's understanding of the topic with the right solution.
-5. Without providing the actual correct answer, provide 50 words of feedback to the student to help them figure out how to figure out the right solution (remember to include relevant sources.)."""
+4. Compare the student's understanding of the topic with the right solution. Based on this, without providing the actual correct answer, provide 50 words of feedback to the student to help them figure out how to figure out the right solution (remember to include relevant sources.)."""
 
 FORMAT_INSTRUCTIONS = """RESPONSE FORMAT INSTRUCTIONS
 ----------------------------
