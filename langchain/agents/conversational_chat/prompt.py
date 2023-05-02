@@ -28,7 +28,7 @@ Markdown code snippet formatted in the following schema:
 
 ```json
 {{{{
-    "action": string \\ The action to take. Must be one of {tool_names}
+    "action": string, \\ The action to take. Must be one of {tool_names}
     "action_input": string \\ The input to the action
 }}}}
 ```
@@ -38,7 +38,7 @@ Use this if you want to respond directly to the student. Markdown code snippet f
 
 ```json
 {{{{
-    "action": "Final Answer,"
+    "action": "Final Answer",
     "action_input": string \\ You should put what you want to return to the student here
 }}}}
 ```"""
