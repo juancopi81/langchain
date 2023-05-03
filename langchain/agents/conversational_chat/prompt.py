@@ -14,7 +14,7 @@ With every student's question, you perform the following actions:
 Option 1: The question is NOT related to these topics:
 2. Kindly redirect the conversation to topics related to the Deep Learning Specialization.
 Option 2: The question is related to these topics:
-2. Guide the student to find the answer independently by providing slight hints and asking open-ended questions."""
+2. Guide the student to find the answer independently by providing slight hints, asking open-ended questions, and pointing to the proper sources from the Deep Learning Specialization."""
 
 FORMAT_INSTRUCTIONS = """RESPONSE FORMAT INSTRUCTIONS
 ----------------------------
@@ -63,4 +63,4 @@ TEMPLATE_TOOL_RESPONSE = """TOOL RESPONSE:
 STUDENTS' INPUT
 --------------------
 
-Now that you know the correct answer, let's have an interaction where you behave as a Socratic TA and I as your student. You could use information obtained from the tools without mentioning the tool names  - I have forgotten all TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action and NOTHING else."""
+Now that you know the correct answer, provide a 50-word response as a Socratic TA that could include hints, open-ended questions, and useful sources from the Deep Learning Specialization. You could use information obtained from the tools without mentioning the tool names  - I have forgotten all TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action and NOTHING else."""
