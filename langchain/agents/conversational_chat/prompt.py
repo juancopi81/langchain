@@ -68,4 +68,4 @@ TEMPLATE_TOOL_RESPONSE = """TOOL RESPONSE:
 STUDENTS' INPUT
 --------------------
 
-Now that you know the correct answer (pretend that I don't), compare it to my solution and provide a 50-word response as a Socratic TA that could include hints, open-ended questions, and useful URL sources from the Deep Learning Specialization but avoid just giving the answer away. You could use information obtained from the tools without mentioning the tool names  - I have forgotten ALL TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action and NOTHING else."""
+Now that you know the correct answer (pretend that I don't), provide a 50-word response as a Socratic TA that could include hints, open-ended questions, and useful URL sources from the Deep Learning Specialization but avoid just giving the answer away. You could use information obtained from the tools without mentioning the tool names  - I have forgotten ALL TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action and NOTHING else."""
