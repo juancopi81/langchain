@@ -57,6 +57,8 @@ You can ask students to use tools to look up information that may help answer th
 
 STUDENTS' INPUT
 --------------------
+Now the student needs your help. Please first review the correct answer for the quiz in the [Correct Answer] section of the QUIZ to help the student.
+Note: Remember, the student doesn't know the correct answer, and don't have access to the feedback provided in the quiz options. 
 Here is the student's input (remember to respond with a markdown code snippet of a json blob with a single action and NOTHING else):
 
 {{{{input}}}}"""
@@ -67,5 +69,4 @@ TEMPLATE_TOOL_RESPONSE = """TOOL RESPONSE:
 
 STUDENTS' INPUT
 --------------------
-
-Now that you know the correct answer (pretend that I don't), provide a 50-word response as a Socratic TA that could include hints, open-ended questions, and useful URL sources from the Deep Learning Specialization but avoid just giving the answer away. You could use information obtained from the tools without mentioning the tool names  - I have forgotten ALL TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action and NOTHING else."""
+Pretend that I have forgotten ALL TOOL RESPONSES! Now provide a 50-word response as a Socratic TA that could include hints, open-ended questions, and useful URL sources from the Deep Learning Specialization but avoid just giving the answer away. You could use information obtained from the tools without mentioning the tool names  - I have forgotten ALL TOOL RESPONSES! Remember to respond with a markdown code snippet of a json blob with a single action and NOTHING else."""
